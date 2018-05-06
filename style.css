@@ -16,7 +16,7 @@ h1.header {
   align-items: center;
 }
 
-a.number {
+a.button {
   display: inline-block;
   color: #4e4e4e;
   font-size: 2em;
@@ -27,10 +27,11 @@ a.number {
   margin: 10px;
   text-align: center;
   text-decoration: none;
+  cursor: pointer;
   transition: color 0.15s ease-out, background-color 0.15s ease-out;
 }
 
-a.number:hover {
+a.button:hover {
   background-color: #4e4e4e;
   color: #fff;
   transition: color 0.15s ease-in, background-color 0.15s ease-in;
@@ -51,7 +52,7 @@ input[type="text"] {
     font-size: 26px;
   }
 
-  a.number {
+  a.button {
     width: 40px;
     margin: 8px;
   }
