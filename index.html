@@ -11,82 +11,84 @@
   <h1 class="header">Calculator</h1>
 
   <div class="container">
-      <input type="text">
+      <p class="screen" id="screen"></p>
   </div>
 
   <div class="container">
     <div class="box">
-      <a class="button">CE</a>
+      <a class="button" id="operationBackspace">CE</a>
     </div>
     <div class="box">
-      <a class="button">C</a>
+      <a class="button" id="screenCleaner">C</a>
     </div>
     <div class="box">
-      <a class="button">&#8592;</a>
+      <a class="button" id="numberBackspace">&#8592;</a>
     </div>
     <div class="box">
-      <a class="button">/</a>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="box">
-      <a class="button">7</a>
-    </div>
-    <div class="box">
-      <a class="button">8</a>
-    </div>
-    <div class="box">
-      <a class="button">9</a>
-    </div>
-    <div class="box">
-      <a class="button">&#215;</a>
+      <a class="button" id="division">/</a>
     </div>
   </div>
 
   <div class="container">
     <div class="box">
-      <a class="button">4</a>
+      <a class="button" id="7">7</a>
     </div>
     <div class="box">
-      <a class="button">5</a>
+      <a class="button" id="8">8</a>
     </div>
     <div class="box">
-      <a class="button">6</a>
+      <a class="button" id="9">9</a>
     </div>
     <div class="box">
-      <a class="button">&#8722;</a>
+      <a class="button" id="multiplication">&#215;</a>
     </div>
   </div>
 
   <div class="container">
     <div class="box">
-      <a class="button">1</a>
+      <a class="button" id="4">4</a>
     </div>
     <div class="box">
-      <a class="button">2</a>
+      <a class="button" id="5">5</a>
     </div>
     <div class="box">
-      <a class="button">3</a>
+      <a class="button" id="6">6</a>
     </div>
     <div class="box">
-      <a class="button">+</a>
+      <a class="button" id="subtraction">&#8722;</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="box">
+      <a class="button" id="1">1</a>
+    </div>
+    <div class="box">
+      <a class="button" id="2">2</a>
+    </div>
+    <div class="box">
+      <a class="button" id="3">3</a>
+    </div>
+    <div class="box">
+      <a class="button" id="addition">+</a>
     </div>
   </div>
   <div class="container">
     <div class="box">
-      <a class="button">&radic;</a>
+      <a class="button" id="squareRoot">&radic;</a>
     </div>
     <div class="box">
-      <a class="button">0</a>
+      <a class="button" id="0">0</a>
     </div>
     <div class="box">
-      <a class="button">.</a>
+      <a class="button" id="comma">.</a>
     </div>
     <div class="box">
-      <a class="button">=</a>
+      <a class="button" id="assignment">=</a>
     </div>
   </div>
+
+  <script type="text/javascript" src="calculator.js"></script>
 </body>
 
 </html>

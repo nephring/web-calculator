@@ -37,8 +37,11 @@ a.button:hover {
   transition: color 0.15s ease-in, background-color 0.15s ease-in;
 }
 
-input[type="text"] {
+.screen {
+  border: 1px solid #4e4e4e;
+  border-radius: 5px;
   width: 330px;
+  height: 55px;
   margin: 10px;
   box-sizing: border-box;
   font-size: 1.8em;
@@ -57,7 +60,7 @@ input[type="text"] {
     margin: 8px;
   }
 
-  input[type="text"] {
+  .screen {
     width: 280px;
   }
 }
