@@ -22,7 +22,7 @@ a.button {
   font-size: 2em;
   border: 1px solid #4e4e4e;
   border-radius: 5px;
-  width: 50px;
+  width: 70px;
   padding: 8px;
   margin: 10px;
   text-align: center;
@@ -37,17 +37,37 @@ a.button:hover {
   transition: color 0.15s ease-in, background-color 0.15s ease-in;
 }
 
-.screen {
+div.screen {
   border: 1px solid #4e4e4e;
   border-radius: 5px;
-  width: 330px;
-  height: 55px;
-  margin: 10px;
-  box-sizing: border-box;
-  font-size: 1.8em;
+  width: 410px;
+  height: 100px;
+  margin-bottom: 10px;
   text-align: right;
-  padding: 10px;
+}
+
+p#stage {
+  margin: 5px 5px 20px;
+  height: 30px;
   color: #4e4e4e;
+  white-space: nowrap;
+  overflow: auto;
+}
+
+p#result {
+  font-size: 2em;
+  margin: 0 5px 0;
+  height: 30px;
+  color: #4e4e4e;
+}
+
+::-webkit-scrollbar {
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #4e4e4e;
 }
 
 @media screen and (max-width: 640px) {
@@ -56,11 +76,23 @@ a.button:hover {
   }
 
   a.button {
-    width: 40px;
+    font-size: 1.5em;
+    width: 30px;
     margin: 8px;
   }
 
-  .screen {
-    width: 280px;
+  div.screen {
+    width: 240px;
+    height: 80px;
+  }
+
+  p#result {
+    font-size: 1.2em;
+    margin: 0 3px 0;
+  }
+
+  p#stage {
+    margin: 3px 3px 10px;
+    font-size: .8em;
   }
 }
